@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('images/backgroundapfrl.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+p {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    display: inline-block;
+    /* Keeps the background only around the text */
+    text-shadow:
+        2px 2px 0 rgba(255, 255, 255, 1),
+        /* White outline around text */
+        -2px -2px 0 rgba(255, 255, 255, 1),
+        2px -2px 0 rgba(255, 255, 255, 1),
+        -2px 2px 0 rgba(255, 255, 255, 1);
+    /* Multiple shadows to form an outline */
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* Soft edges */
+}
+
+header {
+    text-align: center;
+    /* Center the text */
+    padding: -10px 20px;
+}
+
+h1 {
+    font-size: 70px;
+    /* Bigger title */
+    font-weight: bold;
+    display: block;
+    /* Ensures it’s on its own line */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* White highlight */
+    text-shadow:
+        2px 2px 0 rgba(255, 255, 255, 1),
+        /* White outline around text */
+        -2px -2px 0 rgba(255, 255, 255, 1),
+        2px -2px 0 rgba(255, 255, 255, 1),
+        -2px 2px 0 rgba(255, 255, 255, 1);
+    /* Multiple shadows to form an outline */
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-top: -30px;
+}
+h2 {
+    text-shadow:
+        2px 2px 0 rgba(255, 255, 255, 1),
+        /* White outline around text */
+        -2px -2px 0 rgba(255, 255, 255, 1),
+        2px -2px 0 rgba(255, 255, 255, 1),
+        -2px 2px 0 rgba(255, 255, 255, 1);
+    /* Multiple shadows to form an outline */
+}
+h3 {
+    font-size: 24px;
+    /* Smaller author name */
+    font-style: italic;
+    display: block;
+    /* Places it below h1 */
+    margin-top: -20px;
+    /* Adds space below the title */
+    text-shadow:
+        2px 2px 0 rgba(255, 255, 255, 1),
+        /* White outline around text */
+        -2px -2px 0 rgba(255, 255, 255, 1),
+        2px -2px 0 rgba(255, 255, 255, 1),
+        -2px 2px 0 rgba(255, 255, 255, 1);
+    /* Multiple shadows to form an outline */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+nav ul {
+    font-size: 30px;
+    list-style: none;
+    background: #333;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 35px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 800px;
+    height: 1000px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+
+section {
+    text-align: center;
+    /* Centers text & buttons */
+}
+
+button {
+    font-size: 25px;
+    /* Bigger font size */
+    padding: 15px 30px;
+    /* Larger padding to increase button size */
+    margin: 10px;
+    /* Space between buttons */
+    border: none;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 8px;
+    /* Larger border radius for rounder corners */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Flexbox to keep buttons side by side */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Adds spacing between buttons */
+    margin-top: 10px;
+    /* Moves buttons down a bit */
+}
+#share{
+    display: block;
+}
